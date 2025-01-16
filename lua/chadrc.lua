@@ -1,8 +1,8 @@
 local M = {
 
   base46 = {
-    theme = "vscode_dark", -- default theme
-    theme_toggle = { "onedark", "one_light" },
+    theme = "gruvbox", -- default theme
+    theme_toggle = { "gruvbox", "gruvbox" },
   },
 
   ui = {
