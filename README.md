@@ -1,6 +1,6 @@
 # neovim config
 
-Config files for my personal neovim configuration (based on NvChad).
+Configuration files for my personal neovim configuration (based on NvChad).
 
 ![neovim screenshot](./images/screenshot.png)
 
@@ -10,7 +10,7 @@ Config files for my personal neovim configuration (based on NvChad).
 - yarn
 
 ## install
-1. clone into ```~/.config/nvim```
-2. run ```:MasonInstallAll```
-3. run ```:Lazy sync```
+1. ```git clone https://github.com/hunterwellis/nvim-config ~/.config/nvim && nvim```
+2. ```:Lazy sync```
+3. ```:MasonInstallAll```
 

@@ -42,6 +42,7 @@ return {
     init = function()
       -- VimTeX configuration goes here, e.g.
       vim.g.vimtex_view_method = "zathura"
+      vim.g.vimtex_quickfix_ignore_filters = {'Underfull', 'Overfull'}
     end
   },
 
@@ -63,4 +64,7 @@ return {
       if vim.fn.executable "npx" then vim.g.mkdp_filetypes = { "markdown" } end
     end,
   },
+
+  { "nvim-tree/nvim-web-devicons", opts = {} },
+  
 }
